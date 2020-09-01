@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 50m;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: auto;
+    border: .1em dotted silver;
+    margin: .5em;
+}
+
+.flex-item h1 {
+    padding: .5em;
+    background-color: salmon;
+    margin: 0;
+    font-size: large;
+}
+
+.flex-item p {
+    margin: 0;
+    background-color: palegreen;
+    padding: .5em;
+    font-size: medium;
+}
